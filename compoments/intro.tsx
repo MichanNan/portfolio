@@ -29,7 +29,7 @@ export default function Intro() {
           </motion.div>
 
           <motion.span
-            className="absolute bottom-0 right-0 -translate-y-[1rem] text-4xl"
+            className="absolute bottom-0 right-0 -translate-y-[1rem] text-2xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
