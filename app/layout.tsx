@@ -5,6 +5,11 @@ import Link from "next/link";
 import { links } from "@/lib/data";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { BsArrowRight } from "react-icons/bs";
+
+import { HiDownload } from "react-icons/hi";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithubSquare } from "react-icons/fa";
 
 const inter = Inter({ subsets: ["latin"] });
 
