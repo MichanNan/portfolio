@@ -1,4 +1,4 @@
-import Header from "@/compoments/Header";
+import Header from "@/components/Header";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Link from "next/link";
@@ -10,6 +10,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
+import SectionDivider from "@/components/section-divider";
 
 const inter = Inter({ subsets: ["latin"] });
 
