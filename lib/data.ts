@@ -61,17 +61,17 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Knittogether",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Knittogether is an app for recording and sharing knitting projects. Knittiers can create their own accounts to record their knitting projects, yarn and needle inventory. They can search for patterns through Ravelry API. Even more exciting is that knitters can share their projects to the community and also explore projects shared by other knitters.",
+    tags: ["React", "Next.js", "MongoDB", "TaiStyled Components", "Node.js"],
     imageUrl: knittogether,
   },
   {
-    title: "rmtDev",
+    title: "Food-order",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Developed and implemented an online ordering system with React and Firebase for small businesses. Used various React Hooks such as useState, useEffect, useRef, useContext, and useReducer. Connected to Firebase to store data.",
+    tags: ["React", "Reacthooks", "firebase"],
     imageUrl: foodOrder,
   },
 ] as const;

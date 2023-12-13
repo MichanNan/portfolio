@@ -27,7 +27,6 @@ export default function About() {
         actively looking for a full-time position as a{" "}
         <span className="font-medium">frontend developer</span>.
       </p>
-      <p></p>
     </motion.section>
   );
 }
