@@ -1,7 +1,9 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { MdOutlineShoppingCart } from "react-icons/md";
+import { IoSearch } from "react-icons/io5";
+import { IoHomeOutline } from "react-icons/io5";
+
 import knittogether from "@/public/knittogether.png";
 import foodOrder from "@/public/food-order.png";
 
@@ -34,28 +36,35 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Manager Assistant",
+    location: "Hamburg Germany",
+    description: "Creating an online shop through Alibaba.",
+    icon: React.createElement(MdOutlineShoppingCart),
+    date: "10.2014 - 09.2019",
+  },
+  {
+    title: "Stay at Home Mom",
+    location: "Hamburg, Germany",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Learned JavaScript basics through online courses on Udemy and FreeCodeCamp during parental leave.",
+    icon: React.createElement(IoHomeOutline),
+    date: "10.2014 - 09.2019",
+  },
+  {
+    title: "Trainee Web Development",
+    location: "neue fische - School and Pool for Digital Talent",
+    description:
+      "540 hours of programming practice with the independent development of a web app as a thesis",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "04.2023 - 07.2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Orientation and Application Phase for Starting a Career.",
+    location: "Hamburg Germany",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "During this period, I have been consistently learning on Udemy, learning new tech stack such as TypeScript, Express, Tailwind, and more.",
+    icon: React.createElement(IoSearch),
+    date: "08.2023 - present",
   },
 ] as const;
 
