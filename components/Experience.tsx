@@ -7,10 +7,12 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Experience() {
+  const ref = useSectionInView("Experience", 0.75);
   return (
-    <section id="experience">
+    <section ref={ref} id="experience" className="scroll-mt-28">
       <SectionHeading>My experience</SectionHeading>
       <VerticalTimeline lineColor="" animate={true}>
         {experiencesData.map((experience, index) => (
