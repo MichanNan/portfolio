@@ -2,8 +2,8 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { projectsData } from "@/lib/data";
-import Project from "./project";
 import { useSectionInView } from "@/lib/hooks";
+import Project from "./Project";
 
 export default function Projects() {
   const ref = useSectionInView("Projects", 0.5);
